@@ -1,0 +1,149 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.dropdown {
+    cursor:pointer;
+}
+
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+    padding: 50px 0;
+}
+
+.section-colored {
+    background-color: #e1e1e1;
+    /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+    margin-top: 40px;
+}
+
+.sidebar ul {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+    margin-bottom: 45px;
+}
+
+.tooltip-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.facebook-link a:hover {
+    color: #3b5998;
+}
+
+.linkedin-link a:hover {
+    color: #007fb1;
+}
+
+.twitter-link a:hover {
+    color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+    color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+    font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+    font-size: 8em;
+}
+
+.price-cents {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.price-month {
+    font-size: 35%;
+    font-style: italic;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+	background-color: #303030;
+	color: #FFFFFF;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+    height: 50%;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+    .carousel {
+        height: 70%;
+        /* increases the carousel height so it looks good on phones */
+    }
+}
+
+
+
+
+.navbar-inverse .navbar-nav > li > a.facebook:hover, .navbar-inverse .navbar-nav > li > a.facebook:focus {
+	background: #3b5997;
+}
+
+.navbar-inverse .navbar-nav > li > a.twitter:hover, .navbar-inverse .navbar-nav > li > a.twitter:focus {
+	background: #39a9e0;
+}
+
+.navbar-inverse .navbar-nav > li > a.google-plus:hover, .navbar-inverse .navbar-nav > li > a.google-plus:focus {
+	background: #d14836;
+}
+
+.navbar-inverse .navbar-nav > li > a.linkedin:hover, .navbar-inverse .navbar-nav > li > a.linkedin:focus {
+	background: #007fb1;
+}
+
+.navbar-inverse .navbar-nav > li > a.rss:hover, .navbar-inverse .navbar-nav > li > a.rss:focus {
+	background: #007fb1;
+}
