@@ -1,5 +1,5 @@
 angular
-	.module("ngHome", ["ngMaterial", "ui.router"])
+	.module("ngHome", ["ngMaterial", "ui.router","jkAngularCarousel"])
 	.config(function($stateProvider){
 
 
@@ -14,8 +14,7 @@ angular
 			})
 			.state('blog',{
 				url: '/blog',
-				templateUrl: 'components/blog/blog.tpl.html',
-				controller: 'blogCtrl as bloggg'
+				templateUrl: 'components/blog/blog.tpl.html'
 			})
 			.state('contact',{
 				url: '/contact',
@@ -28,6 +27,14 @@ angular
 			.state('about',{
 				url: '/about',
 				templateUrl: 'components/about/about.tpl.html'
+			})
+			.state('thePerson',{
+				url: '/thePerson',
+				templateUrl: 'components/thePerson/thePerson.tpl.html'
+			})
+			.state('download',{
+				url: '/download',
+				templateUrl: 'components/download/download.tpl.html'
 			})
 			.state('error',{
 				url: '/error',

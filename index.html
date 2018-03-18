@@ -10,12 +10,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
 
    <!-- Our Website CSS Styles -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+     <!-- adding  script files -->
+
+    <!-- adding  css files -->
+    <!--<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">-->
+<link rel="stylesheet" href="components/home/jk-carousel.min.css" />
 </head>
 <body ng-app="ngHome">
 
@@ -23,15 +36,21 @@
 <div ng-include='"components/common/header.tpl.html"'></div>
 <ui-view></ui-view>
 <div ng-include='"components/common/footer.tpl.html"'></div>
-
 <!-- Vendor: Javascripts -->
-<script src="node_modules/angular/angular.js"></script>
+<!--<script src="node_modules/angular/angular.js"></script>-->
 <script src="node_modules/angular-animate/angular-animate.js"></script>
 <script src="node_modules/angular-aria/angular-aria.js"></script>
-<script src="node_modules/angular-material/angular-material.js"></script>
+<!--<script src="node_modules/angular-material/angular-material.js"></script>-->
 <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
 <!-- Material Design Lite JavaScript -->
 <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="components/home/jk-carousel.min.js"></script>
+
 
 <!-- Our Website Javascripts -->
 <script src="scripts/app.js"></script>

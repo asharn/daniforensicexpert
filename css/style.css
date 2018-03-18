@@ -12,7 +12,6 @@ body {
     cursor:pointer;
 }
 
-
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
@@ -44,11 +43,6 @@ body {
     border: 1px solid #cccccc;
 }
 
-.item,
-.active,
-.carousel-inner {
-    height: 100%;
-}
 
 .fill {
     width: 100%;
@@ -82,6 +76,9 @@ body {
 .google-plus-link a:hover {
     color: #d14836;
 }
+.quora-link a:hover {
+    color: red;
+}
 
 /* Service Page Styles */
 .service-icon {
@@ -103,30 +100,6 @@ body {
     font-style: italic;
 }
 
-.footer {
-	text-align: center;
-	padding-top: 5rem;
-	padding-bottom: 2rem;
-	background-color: #303030;
-	color: #FFFFFF;
-}
-
-/* Half Page Height Carousel Customization */
-.carousel {
-    height: 50%;
-}
-
-/* Responsive Styles */
-@media (max-width: 767px) {
-
-    .carousel {
-        height: 70%;
-        /* increases the carousel height so it looks good on phones */
-    }
-}
-
-
-
 
 .navbar-inverse .navbar-nav > li > a.facebook:hover, .navbar-inverse .navbar-nav > li > a.facebook:focus {
 	background: #3b5997;
@@ -144,6 +117,41 @@ body {
 	background: #007fb1;
 }
 
-.navbar-inverse .navbar-nav > li > a.rss:hover, .navbar-inverse .navbar-nav > li > a.rss:focus {
-	background: #007fb1;
+
+.navbar-inverse .navbar-nav > li > a.quora:hover, .navbar-inverse .navbar-nav > li > a.quora:focus {
+  background: red;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+/* Styles go here */
+
+.center-grey {
+  background: #f2f2f2;
+}
+.arrows {
+  position: absolute;
+  top: 265px;
+  left: 66px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  color: #222;
+}
+
+
+md-card {
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
 }
